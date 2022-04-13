@@ -9,12 +9,12 @@ function Button (props)
     if(props.myFunction)
     {
         return(
-            <button className={props.className} onClick={props.myFunction}></button>
+            <button className={props.className} onClick={props.myFunction}>{props.myText}</button>
         ) 
     }
     else {
         return(
-            <button className={props.className} onClick={console.log("I have no function. I'm a useless button!")}></button>
+            <button className={props.className} onClick={console.log("I have no function. I'm a useless button!")}>{props.myText}</button>
         ) 
     }
 }
