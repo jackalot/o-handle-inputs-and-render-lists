@@ -9,3 +9,4 @@ function Prompt () {
         </div>
     )
 }
+export default Prompt;
