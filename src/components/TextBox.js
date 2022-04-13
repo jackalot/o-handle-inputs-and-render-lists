@@ -5,3 +5,4 @@ class TextBox extends React.Component {
         )
     }
 }
+export default TextBox;
